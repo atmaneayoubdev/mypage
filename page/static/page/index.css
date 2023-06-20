@@ -1,0 +1,35 @@
+html {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem 0 1rem 0r;
+  font-weight: normal;
+  color: #b7468d;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
